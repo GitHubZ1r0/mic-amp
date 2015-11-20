@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-02 BZR 5161)-product   date = 2/24/2015 9:19:14 AM
+
+BeginCmp
+TimeStamp = /54E4D9AA;
+Reference = C1;
+ValeurCmp = 47nFM;
+IdModule  = LBHB:capacitor-7x3mm-L_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C5E6;
+Reference = C5;
+ValeurCmp = 0.1uFC;
+IdModule  = LBHB:capacitor-2.5x5mm-L_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C692;
+Reference = C6;
+ValeurCmp = 100uFE;
+IdModule  = LBHB:capacitor-D_4mm-L_2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C7AB;
+Reference = C7;
+ValeurCmp = 100uFE;
+IdModule  = LBHB:capacitor-D_4mm-L_2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E50C3B;
+Reference = C10;
+ValeurCmp = 1uFMF;
+IdModule  = LBHB:capacitor-7x12mm-L_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E50A9D;
+Reference = C11;
+ValeurCmp = 1uFMF;
+IdModule  = LBHB:capacitor-7x12mm-L_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4F3DB;
+Reference = C12;
+ValeurCmp = 0.1uFC;
+IdModule  = LBHB:capacitor-2.5x5mm-L_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4F54F;
+Reference = C13;
+ValeurCmp = 0.1uFC;
+IdModule  = LBHB:capacitor-2.5x5mm-L_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E61A79;
+Reference = C22;
+ValeurCmp = 0.1uFC;
+IdModule  = LBHB:capacitor-2.5x5mm-L_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E62127;
+Reference = C23;
+ValeurCmp = 0.1uFC;
+IdModule  = LBHB:capacitor-2.5x5mm-L_2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4EC03;
+Reference = C31;
+ValeurCmp = 47pFM;
+IdModule  = LBHB:capacitor-5x11mm-L_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4CE68;
+Reference = MIC1;
+ValeurCmp = 5P_miniDIN;
+IdModule  = LBHB:mini-DIN-5-pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4FA6D;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = LBHB:BNC_socket_Amphenol;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E506CA;
+Reference = PWR1;
+ValeurCmp = PWR;
+IdModule  = LBHB:mini-DIN-4-pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4D8E4;
+Reference = R1;
+ValeurCmp = 220K;
+IdModule  = LBHB:resistor-4x2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4F8E9;
+Reference = R10;
+ValeurCmp = 100;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4E89F;
+Reference = R11;
+ValeurCmp = 499;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4E7CA;
+Reference = R13;
+ValeurCmp = 5.49K;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C528;
+Reference = R22;
+ValeurCmp = 475;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C497;
+Reference = R23;
+ValeurCmp = 90.9;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4C59A;
+Reference = R24;
+ValeurCmp = 4.7K;
+IdModule  = LBHB:resistor-4x2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4EB06;
+Reference = R31;
+ValeurCmp = 49.9K;
+IdModule  = LBHB:resistor-6.3x2.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E513B0;
+Reference = SW1;
+ValeurCmp = DPDT;
+IdModule  = LBHB:switch-SPDT-7101;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4DD76;
+Reference = U1;
+ValeurCmp = LME49710;
+IdModule  = LBHB:DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4DE22;
+Reference = U2;
+ValeurCmp = LF356;
+IdModule  = LBHB:DIP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E4BFFA;
+Reference = VREG1;
+ValeurCmp = LM317;
+IdModule  = LBHB:TO-92-LM317;
+EndCmp
+
+EndListe

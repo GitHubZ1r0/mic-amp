@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>U:/bburan/projects/circuits/mic amp/mic amp.sch</source>
+    <date>2/20/2015 1:44:30 PM</date>
+    <tool>Eeschema (2014-10-02 BZR 5161)-product</tool>
+  </design>
+  <components>
+    <comp ref="VREG1">
+      <value>LM317</value>
+      <fields>
+        <field name="Suggested part">LM317</field>
+        <field name="Digikey">296-31364-ND</field>
+      </fields>
+      <libsource lib="regul" part="LM317_SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4BFFA</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>90.9</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C497</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>475</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C528</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4.7K</value>
+      <fields>
+        <field name="DigiKey">ojuo</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C59A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uFC</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C5E6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uFE</value>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C692</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100uFE</value>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4C7AB</tstamp>
+    </comp>
+    <comp ref="MIC1">
+      <value>5P_miniDIN</value>
+      <libsource lib="lbhb" part="5P_miniDIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4CE68</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4D8E4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47nFM</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4D9AA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LME49710</value>
+      <libsource lib="lbhb" part="LME49710"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4DD76</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LF356</value>
+      <libsource lib="lbhb" part="LF356"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4DE22</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>5.49K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4E7CA</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>499</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4E89F</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>49.9K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4EB06</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>47pFM</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4EC03</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uFC</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4F3DB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uFC</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4F54F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4F8E9</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>BNC</value>
+      <libsource lib="device" part="BNC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E4FA6D</tstamp>
+    </comp>
+    <comp ref="PWR1">
+      <value>PWR</value>
+      <libsource lib="lbhb" part="4P_miniDIN_PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E506CA</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uFMF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E50A9D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uFMF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E50C3B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>DPDT</value>
+      <libsource lib="lbhb" part="DPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E513B0</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uFC</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E61A79</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uFC</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54E62127</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="BNC">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP2">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM317_SOT223">
+      <description>Linear Regulator (adjustable)</description>
+      <docs>regulator/lm117.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lbhb" part="4P_miniDIN_PWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4P_miniDIN_PWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="power_out"/>
+        <pin num="4" name="~" type="power_out"/>
+        <pin num="C" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lbhb" part="5P_miniDIN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">5P_miniDIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="C" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lbhb" part="DPDT">
+      <description>Switch inverseur</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="C" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lbhb" part="LF356">
+      <description>Dual Op amp (low power)</description>
+      <docs>ns/lm158.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LF356</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="lbhb" part="LME49710">
+      <description>Dual Op amp (low power)</description>
+      <docs>ns/lm158.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LME49710</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\KiCad\share\library\device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\KiCad\share\library\regul.lib</uri>
+    </library>
+    <library logical="lbhb">
+      <uri>U:\bburan\projects\circuits\libraries\lbhb.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R11-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C31-Pad1)">
+      <node ref="R31" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="3" name="+15V">
+      <node ref="C12" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="VREG1" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="PWR1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(R22-Pad1)">
+      <node ref="VREG1" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C6-Pad1)">
+      <node ref="VREG1" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="MIC1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(P1-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(R13-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R11-Pad1)">
+      <node ref="SW1" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="11" name="-15V">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="PWR1" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="12" name="GNDA">
+      <node ref="MIC1" pin="2"/>
+      <node ref="MIC1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="PWR1" pin="C"/>
+      <node ref="C13" pin="1"/>
+      <node ref="PWR1" pin="1"/>
+      <node ref="PWR1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="MIC1" pin="C"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="C"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad2)">
+      <node ref="MIC1" pin="3"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R10-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="15" name="Net-(MIC1-Pad5)">
+      <node ref="MIC1" pin="5"/>
+    </net>
+  </nets>
+</export>
