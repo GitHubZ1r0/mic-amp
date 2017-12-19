@@ -1,0 +1,38 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/bburan/work/equipment/circuits/mic amp/mic amp.sch</h1>
+    <p>Wed 29 Nov 2017 03:04:24 PM PST</p>
+    <p>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</p>
+    <p><b>Component Count:</b>31</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>33nF film</td><td>mic amp-rescue:C-RESCUE-mic_amp</td><td>Capacitor_THT:C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2</td><td></td><td></td></tr>
+    <tr><td>C5, C12, C13, C22, C23</td><td>5</td><td>0.1uF</td><td>mic amp-rescue:C-RESCUE-mic_amp</td><td>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C6, C7</td><td>2</td><td>100uF</td><td>mic amp-cache:CP2</td><td>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</td><td></td><td></td></tr>
+    <tr><td>C10, C11</td><td>2</td><td>1uF</td><td>mic amp-rescue:C-RESCUE-mic_amp</td><td>custom:C_Rect_L5.5mm_W4.0mm_P2.50mm</td><td></td><td></td></tr>
+    <tr><td>C31</td><td>1</td><td>220pF film</td><td>mic amp-rescue:C-RESCUE-mic_amp</td><td>Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</td><td></td><td></td></tr>
+    <tr><td>J1, J8</td><td>2</td><td>CONN_01X02</td><td>conn:CONN_01X02</td><td>Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</td><td>Connector, single row, 01x02, pin header</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>CONN_01X01</td><td>conn:CONN_01X01</td><td>Conn_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</td><td>Connector, single row, 01x01, pin header</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>CONN_01X03</td><td>conn:CONN_01X03</td><td>Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</td><td>Connector, single row, 01x03, pin header</td><td></td></tr>
+    <tr><td>J4, J5, J6, J7</td><td>4</td><td>CONN_01X01</td><td>conn:CONN_01X01</td><td>MountingHole:MountingHole_3.2mm_M3</td><td>Connector, single row, 01x01, pin header</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>CONN_01X05</td><td>conn:CONN_01X05</td><td>Conn_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</td><td>Connector, single row, 01x05, pin header</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>49.9k</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R10, R11</td><td>2</td><td>100</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R13, R31</td><td>2</td><td>10k</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R22</td><td>1</td><td>475</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R23</td><td>1</td><td>90.9</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>R24</td><td>1</td><td>4.7K</td><td>mic amp-rescue:R-RESCUE-mic_amp</td><td>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</td><td></td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>LME49710</td><td>linear:LF356</td><td>Package_DIP:DIP-8_W7.62mm_LongPads</td><td>Op amp</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>LF356</td><td>linear:LF356</td><td>Package_DIP:DIP-8_W7.62mm_LongPads</td><td>Op amp</td><td></td></tr>
+    <tr><td>VREG1</td><td>1</td><td>LM317</td><td>regul:LM317_SOT223</td><td>Package_TO_SOT_THT:TO-92_Inline_Wide</td><td>Linear Regulator (adjustable)</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

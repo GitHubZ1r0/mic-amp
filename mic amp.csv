@@ -1,27 +1,21 @@
-Reference, Value, Footprint, Datasheet
-VREG1,LM317,,
-R23,90.9,,
-R22,475,,
-R24,4.7K,,
-C5,0.1uFC,,
-C6,100uFE,,
-C7,100uFE,,
-MIC1,5P_miniDIN,,
-R1,220K,,
-C1,47nFM,,
-U1,LME49710,,
-U2,LF356,,
-R13,5.49K,,
-R11,499,,
-R31,49.9K,,
-C31,47pFM,,
-C12,0.1uFC,,
-C13,0.1uFC,,
-R10,100,,
-P1,BNC,,
-PWR1,PWR,,
-C11,1uFMF,,
-C10,1uFMF,,
-SW1,DPDT,,
-C22,0.1uFC,,
-C23,0.1uFC,,
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,"33nF film","Capacitor_THT:C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2",""
+C10 C11 ,2,"1uF","custom:C_Rect_L5.5mm_W3.15mm_P2.50mm",""
+C12 C13 C22 C23 ,4,"0.1uF","custom:C_Rect_L4.5mm_W3.15mm_P2.50mm",""
+C31 ,1,"220pF film","Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",""
+C5 ,1,"0.1uF","custom:C_Rect_L5.5mm_W3.15mm_P2.50mm",""
+C6 C7 ,2,"100uF","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",""
+J2 ,1,"CONN_01X01","Conn_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical",""
+J3 ,1,"CONN_01X03","Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical",""
+J4 J5 J6 J7 ,4,"CONN_01X01","MountingHole:MountingHole_3.2mm_M3",""
+J1 J8 ,2,"CONN_01X02","Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical",""
+J9 ,1,"CONN_01X05","Conn_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical",""
+R1 ,1,"49.9k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+R10 R11 ,2,"100","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+R13 R31 ,2,"10k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+R22 ,1,"475","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+R23 ,1,"90.9","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+R24 ,1,"4.7K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",""
+U1 ,1,"LME49710","Package_DIP:DIP-8_W7.62mm_LongPads",""
+U2 ,1,"LF356","Package_DIP:DIP-8_W7.62mm_LongPads",""
+VREG1 ,1,"LM317","Package_TO_SOT_THT:TO-92_Inline_Wide",""
