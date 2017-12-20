@@ -11,7 +11,7 @@ lower frequencies. It features:
 * Low-noise 1.5V supply for microphone with a low-pass filter cutoff of 0.33 Hz
   (ensuring that very little noise makes it into the microphone).
 
-![Rendering of PCB]('images/mic%20amp.png')
+![Rendering of PCB](images/mic%20amp.png)
 
 The board is 74mm x 48mm and the mounting holes, spaced 40mm x 40mm, are sized
 for a M3 screw. The board will fit in a Hammond enclosure that accomodates 75mm
