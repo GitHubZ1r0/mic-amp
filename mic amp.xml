@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/bburan/work/equipment/circuits/mic amp/mic amp.sch</source>
-    <date>Wed 29 Nov 2017 03:04:24 PM PST</date>
+    <source>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp.sch</source>
+    <date>Wed 20 Dec 2017 12:02:36 PM PST</date>
     <tool>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,6 +22,9 @@
     <comp ref="VREG1">
       <value>LM317</value>
       <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <fields>
+        <field name="Part number">LM317LZ/NOPB</field>
+      </fields>
       <libsource lib="regul" part="LM317_SOT223"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4BFFA</tstamp>
@@ -29,6 +32,9 @@
     <comp ref="R23">
       <value>90.9</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B90R9CC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C497</tstamp>
@@ -36,6 +42,9 @@
     <comp ref="R22">
       <value>475</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B499RCC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C528</tstamp>
@@ -43,6 +52,9 @@
     <comp ref="R24">
       <value>4.7K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B4K75CC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C59A</tstamp>
@@ -50,6 +62,9 @@
     <comp ref="C5">
       <value>0.1uF</value>
       <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C5E6</tstamp>
@@ -57,6 +72,9 @@
     <comp ref="C6">
       <value>100uF</value>
       <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Part number">UKL1V101KPDANA</field>
+      </fields>
       <libsource lib="mic amp-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C692</tstamp>
@@ -64,6 +82,9 @@
     <comp ref="C7">
       <value>100uF</value>
       <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Part number">UKL1V101KPDANA</field>
+      </fields>
       <libsource lib="mic amp-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4C7AB</tstamp>
@@ -71,20 +92,30 @@
     <comp ref="R1">
       <value>49.9k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B49K9CC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4D8E4</tstamp>
     </comp>
     <comp ref="C1">
-      <value>33nF film</value>
+      <value>33nF</value>
       <footprint>Capacitor_THT:C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2</footprint>
+      <fields>
+        <field name="Part number">FKP2C023301L00HI00</field>
+        <field name="Notes">use metal film</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4D9AA</tstamp>
     </comp>
     <comp ref="R13">
-      <value>10k</value>
+      <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B1K0CC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4E7CA</tstamp>
@@ -92,6 +123,9 @@
     <comp ref="R11">
       <value>100</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B100RCC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4E89F</tstamp>
@@ -99,13 +133,20 @@
     <comp ref="R31">
       <value>10k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B10KCC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4EB06</tstamp>
     </comp>
     <comp ref="C31">
-      <value>220pF film</value>
+      <value>220pF</value>
       <footprint>Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <fields>
+        <field name="Part number">FKP2D002201D00HSSD</field>
+        <field name="Notes">use metal film</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4EC03</tstamp>
@@ -113,6 +154,9 @@
     <comp ref="C12">
       <value>0.1uF</value>
       <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4F3DB</tstamp>
@@ -120,6 +164,9 @@
     <comp ref="C13">
       <value>0.1uF</value>
       <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4F54F</tstamp>
@@ -127,6 +174,9 @@
     <comp ref="R10">
       <value>100</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Part number">YR1B100RCC</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="R-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E4F8E9</tstamp>
@@ -134,6 +184,9 @@
     <comp ref="C11">
       <value>1uF</value>
       <footprint>custom:C_Rect_L5.5mm_W4.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A105K2P1H03B</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E50A9D</tstamp>
@@ -141,6 +194,9 @@
     <comp ref="C10">
       <value>1uF</value>
       <footprint>custom:C_Rect_L5.5mm_W4.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A105K2P1H03B</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E50C3B</tstamp>
@@ -148,6 +204,9 @@
     <comp ref="C22">
       <value>0.1uF</value>
       <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E61A79</tstamp>
@@ -155,6 +214,9 @@
     <comp ref="C23">
       <value>0.1uF</value>
       <footprint>custom:C_Rect_L4.0mm_W3.5mm_P2.50mm</footprint>
+      <fields>
+        <field name="Part number">RDER72A104K1S1H03A</field>
+      </fields>
       <libsource lib="mic amp-rescue" part="C-RESCUE-mic_amp"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E62127</tstamp>
@@ -162,6 +224,9 @@
     <comp ref="U2">
       <value>LF356</value>
       <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Part number">LF356N/NOPB</field>
+      </fields>
       <libsource lib="linear" part="LF356"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E3EF0</tstamp>
@@ -169,6 +234,10 @@
     <comp ref="U1">
       <value>LME49710</value>
       <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Part number">LME49710NA/NOPB</field>
+        <field name="Notes">this part is end-of-life, order extra if you need more</field>
+      </fields>
       <libsource lib="linear" part="LF356"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E505E</tstamp>
@@ -222,19 +291,26 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E972C</tstamp>
     </comp>
-    <comp ref="J9">
-      <value>CONN_01X05</value>
-      <footprint>Conn_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
-      <libsource lib="conn" part="CONN_01X05"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A1E9F7B</tstamp>
-    </comp>
     <comp ref="J2">
       <value>CONN_01X01</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1EA690</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_01X03</value>
+      <footprint>Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A304C1A</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>CONN_01X02</value>
+      <footprint>Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A304E40</tstamp>
     </comp>
   </components>
   <libparts>
@@ -302,26 +378,6 @@
         <pin num="1" name="P1" type="passive"/>
         <pin num="2" name="P2" type="passive"/>
         <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X05">
-      <description>Connector, single row, 01x05, pin header</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X*</fp>
-        <fp>Pin_Header_Angled_1X*</fp>
-        <fp>Socket_Strip_Straight_1X*</fp>
-        <fp>Socket_Strip_Angled_1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">CONN_01X05</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="mic amp-cache" part="CP2">
@@ -406,20 +462,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
+    <library logical="mic amp-cache">
+      <uri>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp-cache.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="mic amp-rescue">
-      <uri>/home/bburan/work/equipment/circuits/mic amp/mic amp-rescue.lib</uri>
+      <uri>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp-rescue.lib</uri>
     </library>
-    <library logical="mic amp-cache">
-      <uri>/home/bburan/work/equipment/circuits/mic amp/mic amp-cache.lib</uri>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -445,21 +501,21 @@
       <node ref="C7" pin="2"/>
     </net>
     <net code="3" name="+15V">
+      <node ref="U2" pin="7"/>
       <node ref="U1" pin="7"/>
       <node ref="C12" pin="2"/>
-      <node ref="U2" pin="7"/>
       <node ref="C22" pin="2"/>
       <node ref="VREG1" pin="3"/>
       <node ref="C5" pin="1"/>
       <node ref="C10" pin="1"/>
-      <node ref="J9" pin="1"/>
+      <node ref="J9" pin="3"/>
     </net>
     <net code="4" name="-15V">
       <node ref="C13" pin="2"/>
       <node ref="C11" pin="1"/>
       <node ref="U2" pin="4"/>
       <node ref="C23" pin="2"/>
-      <node ref="J9" pin="3"/>
+      <node ref="J9" pin="1"/>
       <node ref="U1" pin="4"/>
     </net>
     <net code="5" name="Net-(C31-Pad1)">
@@ -482,8 +538,8 @@
       <node ref="J3" pin="3"/>
     </net>
     <net code="9" name="Net-(J3-Pad1)">
-      <node ref="R11" pin="1"/>
       <node ref="J3" pin="1"/>
+      <node ref="R11" pin="1"/>
     </net>
     <net code="10" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
@@ -503,9 +559,9 @@
     <net code="15" name="Net-(U1-Pad1)">
       <node ref="U1" pin="1"/>
     </net>
-    <net code="16" name="Net-(J9-Pad4)">
-      <node ref="J9" pin="5"/>
-      <node ref="J9" pin="4"/>
+    <net code="16" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="2"/>
+      <node ref="J10" pin="1"/>
     </net>
     <net code="17" name="Net-(U2-Pad1)">
       <node ref="U2" pin="1"/>
