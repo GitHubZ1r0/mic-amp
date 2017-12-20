@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp.sch</source>
-    <date>Wed 20 Dec 2017 12:02:36 PM PST</date>
+    <date>Wed 20 Dec 2017 12:11:37 PM PST</date>
     <tool>Eeschema 4.0.7-e2-6376~60~ubuntu17.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -245,6 +245,9 @@
     <comp ref="J3">
       <value>CONN_01X03</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E5AFD</tstamp>
@@ -252,6 +255,9 @@
     <comp ref="J6">
       <value>CONN_01X01</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Notes">mounting hole</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E687C</tstamp>
@@ -259,6 +265,9 @@
     <comp ref="J7">
       <value>CONN_01X01</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Notes">mounting hole</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E6995</tstamp>
@@ -266,6 +275,9 @@
     <comp ref="J5">
       <value>CONN_01X01</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Notes">mounting hole</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E6D0A</tstamp>
@@ -273,6 +285,9 @@
     <comp ref="J4">
       <value>CONN_01X01</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Notes">mounting hole</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E6DE5</tstamp>
@@ -280,6 +295,9 @@
     <comp ref="J8">
       <value>CONN_01X02</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E8A43</tstamp>
@@ -287,6 +305,9 @@
     <comp ref="J1">
       <value>CONN_01X02</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1E972C</tstamp>
@@ -294,6 +315,9 @@
     <comp ref="J2">
       <value>CONN_01X01</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A1EA690</tstamp>
@@ -301,6 +325,9 @@
     <comp ref="J9">
       <value>CONN_01X03</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A304C1A</tstamp>
@@ -308,6 +335,9 @@
     <comp ref="J10">
       <value>CONN_01X02</value>
       <footprint>Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Notes">0.1" header</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A304E40</tstamp>
@@ -462,14 +492,14 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="mic amp-rescue">
+      <uri>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp-rescue.lib</uri>
+    </library>
     <library logical="mic amp-cache">
       <uri>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp-cache.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="mic amp-rescue">
-      <uri>/home/bburan/work/equipment/circuits/audio/mic amp/mic amp-rescue.lib</uri>
     </library>
     <library logical="linear">
       <uri>/usr/share/kicad/library/linear.lib</uri>

@@ -5,10 +5,10 @@
 | C6, C7                 | 2      | 100uF      | UKL1V101KPDANA     |                                                        |
 | C10, C11               | 2      | 1uF        | RDER72A105K2P1H03B |                                                        |
 | C31                    | 1      | 220pF      | FKP2D002201D00HSSD | use metal film                                         |
-| J1, J8, J10            | 3      | CONN_01X02 |                    |                                                        |
-| J2                     | 1      | CONN_01X01 |                    |                                                        |
-| J3, J9                 | 2      | CONN_01X03 |                    |                                                        |
-| J4, J5, J6, J7         | 4      | CONN_01X01 |                    |                                                        |
+| J1, J8, J10            | 3      | CONN_01X02 |                    | 0.1" header                                            |
+| J2                     | 1      | CONN_01X01 |                    | 0.1" header                                            |
+| J3, J9                 | 2      | CONN_01X03 |                    | 0.1" header                                            |
+| J4, J5, J6, J7         | 4      | CONN_01X01 |                    | mounting hole                                          |
 | R1                     | 1      | 49.9k      | YR1B49K9CC         |                                                        |
 | R10, R11               | 2      | 100        | YR1B100RCC         |                                                        |
 | R13                    | 1      | 1k         | YR1B1K0CC          |                                                        |

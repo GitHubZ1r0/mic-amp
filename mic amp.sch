@@ -747,6 +747,7 @@ F 0 "J3" H 3050 6075 50  0000 C CNN
 F 1 "CONN_01X03" V 3150 5875 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3050 5875 50  0001 C CNN
 F 3 "" H 3050 5875 50  0001 C CNN
+F 4 "0.1\" header" H 3050 5875 60  0001 C CNN "Notes"
 	1    3050 5875
 	0    1    1    0   
 $EndComp
@@ -760,6 +761,7 @@ F 0 "J6" H 8985 1905 50  0000 C CNN
 F 1 "CONN_01X01" V 9085 1805 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 8985 1805 50  0001 C CNN
 F 3 "" H 8985 1805 50  0001 C CNN
+F 4 "mounting hole" H 8985 1805 60  0001 C CNN "Notes"
 	1    8985 1805
 	1    0    0    -1  
 $EndComp
@@ -771,6 +773,7 @@ F 0 "J7" H 8995 2280 50  0000 C CNN
 F 1 "CONN_01X01" V 9095 2180 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 8995 2180 50  0001 C CNN
 F 3 "" H 8995 2180 50  0001 C CNN
+F 4 "mounting hole" H 8995 2180 60  0001 C CNN "Notes"
 	1    8995 2180
 	1    0    0    -1  
 $EndComp
@@ -782,6 +785,7 @@ F 0 "J5" H 8980 2695 50  0000 C CNN
 F 1 "CONN_01X01" V 9080 2595 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 8980 2595 50  0001 C CNN
 F 3 "" H 8980 2595 50  0001 C CNN
+F 4 "mounting hole" H 8980 2595 60  0001 C CNN "Notes"
 	1    8980 2595
 	1    0    0    -1  
 $EndComp
@@ -793,6 +797,7 @@ F 0 "J4" H 8935 1515 50  0000 C CNN
 F 1 "CONN_01X01" V 9035 1415 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 8935 1415 50  0001 C CNN
 F 3 "" H 8935 1415 50  0001 C CNN
+F 4 "mounting hole" H 8935 1415 60  0001 C CNN "Notes"
 	1    8935 1415
 	1    0    0    -1  
 $EndComp
@@ -808,6 +813,7 @@ F 0 "J8" H 8725 5350 50  0000 C CNN
 F 1 "CONN_01X02" V 8825 5200 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8725 5200 50  0001 C CNN
 F 3 "" H 8725 5200 50  0001 C CNN
+F 4 "0.1\" header" H 8725 5200 60  0001 C CNN "Notes"
 	1    8725 5200
 	1    0    0    -1  
 $EndComp
@@ -819,6 +825,7 @@ F 0 "J1" H 1150 2200 50  0000 C CNN
 F 1 "CONN_01X02" V 1250 2050 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1150 2050 50  0001 C CNN
 F 3 "" H 1150 2050 50  0001 C CNN
+F 4 "0.1\" header" H 1150 2050 60  0001 C CNN "Notes"
 	1    1150 2050
 	-1   0    0    1   
 $EndComp
@@ -834,6 +841,7 @@ F 0 "J2" H 1435 5150 50  0000 C CNN
 F 1 "CONN_01X01" V 1535 5050 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 1435 5050 50  0001 C CNN
 F 3 "" H 1435 5050 50  0001 C CNN
+F 4 "0.1\" header" H 1435 5050 60  0001 C CNN "Notes"
 	1    1435 5050
 	-1   0    0    1   
 $EndComp
@@ -853,6 +861,7 @@ F 0 "J9" H 6655 1235 50  0000 C CNN
 F 1 "CONN_01X03" V 6755 1035 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6655 1035 50  0001 C CNN
 F 3 "" H 6655 1035 50  0001 C CNN
+F 4 "0.1\" header" H 6655 1035 60  0001 C CNN "Notes"
 	1    6655 1035
 	-1   0    0    1   
 $EndComp
@@ -864,6 +873,7 @@ F 0 "J10" H 6980 1680 50  0000 C CNN
 F 1 "CONN_01X02" V 7080 1530 50  0000 C CNN
 F 2 "Conn_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6980 1530 50  0001 C CNN
 F 3 "" H 6980 1530 50  0001 C CNN
+F 4 "0.1\" header" H 6980 1530 60  0001 C CNN "Notes"
 	1    6980 1530
 	-1   0    0    1   
 $EndComp
