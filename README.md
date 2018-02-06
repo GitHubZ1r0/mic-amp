@@ -20,4 +20,8 @@ wide boards.
 ## Getting started
 OSH Park will print and ship three of these boards for approximately $30. 
 
-Order the parts from the list in the "parts list.md" file.
+Order the parts from the [bill of materials](parts%20list.md).
+
+Solder the parts using solder with water-soluble flux.
+
+Wash the board with dH<sub>2</sub>O.
